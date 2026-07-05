@@ -1,1 +1,10 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solicitação enviada | JS Consultoria & Engenharia</title><link rel="stylesheet" href="style.css"></head><body><main class="section" style="min-height:80vh;display:grid;place-items:center;background:#f7f4ee"><div style="max-width:650px;padding:45px;background:#fff;border-radius:24px;text-align:center;box-shadow:0 18px 50px #082b5520"><p class="eyebrow dark" style="justify-content:center"><span></span> Contato enviado</p><h1 style="font-size:46px;color:#082b55">Obrigado pelo contato.</h1><p style="color:#5c6b79">A JS Consultoria & Engenharia recebeu sua solicitação e retornará por e-mail assim que possível.</p><a class="btn btn-primary" href="index.html">Voltar ao site</a></div></main></body></html>
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.querySelector(".menu-btn");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (menuButton && navLinks) {
+    menuButton.addEventListener("click", function () {
+      navLinks.classList.toggle("open");
+    });
+  }
+});
