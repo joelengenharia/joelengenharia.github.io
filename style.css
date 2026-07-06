@@ -12,3 +12,13 @@
 .hero p{
     margin-top:28px !important;
 }
+.hero-copy p {
+  margin-top: 24px !important;
+  margin-bottom: 28px !important;
+  display: block !important;
+}
+
+.hero-copy h1 {
+  margin-bottom: 24px !important;
+  font-size: clamp(38px, 4.5vw, 63px) !important;
+}
